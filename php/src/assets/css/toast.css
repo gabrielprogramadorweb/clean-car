@@ -1,0 +1,10 @@
+.toast-custom {
+    color: white !important;
+    background-color: #cc6e02;
+}
+
+.toast-success-icon {
+    background-image: url('https://cdn.pixabay.com/photo/2015/06/09/16/12/icon-803718_1280.png'); /* Substitua pelo caminho correto da sua imagem */
+    background-size: 30px auto;
+   /* Ajuste conforme necessário */
+}

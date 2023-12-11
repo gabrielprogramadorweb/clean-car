@@ -1,0 +1,51 @@
+/*Home*/
+       
+.jumbotron {
+    position: relative;
+    background-image: url('../img/bg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #fff;
+    width: 100%;
+    height: 80vh; 
+}
+
+.servicos {
+  
+    background-color: #fff;
+
+    text-align: center;
+}
+
+.servicos h2 {
+    color: #343a40;
+    margin-bottom: 30px;
+}
+
+.servico-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.servico-card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contato {
+    background-color: #343a40;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contato h2 {
+    margin-bottom: 30px;
+}
+
+.contato-form {
+    max-width: 400px;
+    margin: auto;
+}

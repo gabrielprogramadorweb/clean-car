@@ -1,0 +1,56 @@
+<?php 
+$this->load->view('base', ['title' => 'Home']); 
+$this->load->view('nav'); 
+?>
+<!-- Jumbotron -->
+    <div class="jumbotron w-auto h-auto">
+    </div>
+    <!-- Serviços -->
+    <div class="container servicos">
+        <h2>Nossos Serviços</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="servico-card">
+                    <h4>Lavagem Premium</h4>
+                    <p>Deixe seu carro brilhando com nossa lavagem premium.</p>
+                    <p>Preço: R$50,00</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="servico-card">
+                    <h4>Polimento Profissional</h4>
+                    <p>Realizamos polimento para restaurar o brilho original do seu veículo.</p>
+                    <p>Preço: R$120,00</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="servico-card">
+                    <h4>Proteção de Pintura</h4>
+                    <p>Oferecemos serviços de proteção de pintura para manter seu carro sempre novo.</p>
+                    <p>Preço: R$80,00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contato -->
+    <div class="container contato">
+        <h2>Entre em Contato</h2>
+        <div class="contato-form">
+            <!-- Formulário de Contato -->
+            <form action="<?= site_url('contato/enviar_mensagem'); ?>" method="post">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Seu Nome" name="nome" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Seu E-mail" name="email" required>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" placeholder="Sua Mensagem" name="mensagem" rows="4"
+                        required></textarea>
+                </div>
+                <button type="submit" class="btn btn-light">Enviar Mensagem</button>
+            </form>
+        </div>
+    </div>
+    <?php $this->load->view('contatoJs'); ?>
+<?php $this->load->view('footer'); ?>

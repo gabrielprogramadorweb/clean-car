@@ -1,0 +1,11 @@
+ /* Serviços */
+ .servico-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.servico-card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
