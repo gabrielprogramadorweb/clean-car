@@ -8,7 +8,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-            <a class="nav-link btn" href="<?= base_url('home') ?>">Página inicial<span class="sr-only">(current)</span></a>
+            <a class="nav-link btn" href="<?= base_url('/') ?>">Página inicial<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
             <a class="nav-link btn" href="<?= site_url('produtos') ?>">Produtos</a>

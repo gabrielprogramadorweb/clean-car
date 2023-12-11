@@ -54,4 +54,6 @@ $route['404_override'] = '';
 $route['produtos'] = 'produtos';
 $route['translate_uri_dashes'] = FALSE;
 $route['sucesso'] = 'contato/sucesso';
+$route['exportar-csv'] = 'ExportController/exportarCSV';
+
 

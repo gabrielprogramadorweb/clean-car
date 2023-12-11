@@ -21,14 +21,12 @@ $(document).ready(function() {
             "hideEasing": "linear",
             "showMethod": "fadeIn",
             "hideMethod": "fadeOut",
-            "toastClass": "toast-custom", 
+            "toastClass": "toast-custom",
             "iconClasses": {
-                "success": 'toast-success-icon', 
+                "success": 'toast-success-icon',
             },
-            "titleClass": "toast-title-custom" 
+            "titleClass": "toast-title-custom"
         };
-
-
         // Enviando os dados usando AJAX
         $.ajax({
             type: 'POST',

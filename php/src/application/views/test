@@ -52,5 +52,11 @@ $this->load->view('nav');
             </form>
         </div>
     </div>
+    <!-- Botão de Relatório -->
+<button onclick="gerarRelatorio()">Gerar Relatório</button>
+
+<!-- Espaço para exibir mensagens ou resultados -->
+<div id="mensagem"></div>
+
     <?php $this->load->view('contatoJs'); ?>
 <?php $this->load->view('footer'); ?>

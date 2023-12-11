@@ -6,6 +6,7 @@ class Contato extends CI_Controller {
         parent::__construct();
         $this->load->model('Mensagem_model');
     }
+    
 
     public function index() {
         $this->load->view('contato');
@@ -23,5 +24,4 @@ class Contato extends CI_Controller {
         // Redirecionar ou exibir uma mensagem de sucesso
         
     }
-
 }
